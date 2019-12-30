@@ -73,3 +73,4 @@ describe 'my own reduce-like methods' do
 end
 
 expect(map_to_negativize([1, 2, 3, -9])).to eq([-1, -2, -3, 9])
+[1, 2, 3, -9].map { |n| n * -1 } # => 
